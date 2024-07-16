@@ -9,9 +9,11 @@ info2 = prompt("Ingresa una comuna")
 ele1.innerHTML = info1
 ele2.innerHTML = info2*/
 
-img = prompt("Ingresa un borde")
-borde = document.querySelector("img")
+borde = prompt("Ingresa un borde")
+img = document.querySelector("img")
+img.innerHTML = borde
 img.style.borderRadius = borde
+
 
 
 
